@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="../index.html">Головна сторінка</a></li>
+          <li><a href="articles.html">Статті</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="page-nav.html">Навігація</a></li>
+          <li><a href="registration.html">Реєстрація</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+
+      <h1>Реєстрація</h1>
+      <hr>
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+
+        <fieldset>
+          <legend><b>Контактні дані</b></legend>
+
+          <div>
+            <label for="name">Ім'я</label>
+            <input id="name" type="text" placeholder="Name" name="name">
+          </div>
+          <div>
+            <label for="fam">Прізвище</label>
+            <input id="fam" type="text" placeholder="Familien Name" name="fam">
+          </div>
+          <div>
+            <label for="file">Фото</label>
+            <input id="file" type="file" name="file">
+          </div>
+          <div>
+            <label for="email">Emeil</label>
+            <input id="email" type="email" placeholder="Email" name="email">
+          </div>
+          <div>
+            <label for="password">Пароль</label>
+            <input id="password" maxlength="16" minlength="8" type="password" placeholder="Password" name="password">
+          </div>
+          <div>
+            <label for="site">Адреса сайта</label>
+            <input id="site" name="site" placeholder="Сайт" type="url" value="https://mysite.name/">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Виберіть стать</b></legend>
+
+          <div>
+            <label for="gender-male">Чоловіча</label>
+            <input id="gender-male" name="gender" type="radio" value="gender-male">
+          </div>
+          <div>
+            <label for="gender-female">Жіноча</label>
+            <input id="gender-female" name="gender" type="radio" value="gender-female">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Дата народження</b></legend>
+          <div>
+            <label for="date">Дата рождения</label>
+            <input id="date" name="date" type="date">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Кухня</b></legend>
+          <div>
+            <label for="uk">Українська</label>
+            <input id="uk" type="checkbox" name="kit" value="uk">
+          </div>
+          <div>
+            <label for="de">Німецька</label>
+            <input id="de" type="checkbox" name="kit" value="de">
+          </div>
+          <div>
+            <label for="en">Англійська</label>
+            <input id="en" type="checkbox" name="kit" value="en">
+          </div>
+          <div>
+            <label for="sp">Іспанська</label>
+            <input id="sp" type="checkbox" name="kit" value="sp">
+          </div>
+          <div>
+            <label for="ab">Арабська</label>
+            <input id="ab" type="checkbox" name="kit" value="ab">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <label for="input-id">Розкажіть про себе</label>
+            <input type="text" id="input-id" name="input-name" size="40" style="height: 60px;">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <button type="submit"><b>Відправити</b></button>
+            <button type="reset">Стерти</button>
+          </div>
+        </fieldset>
+
+      </form>
+
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <div>&copy; Anton Pashchenko</div>
+  </footer>
+
+</body>
+
+</html>

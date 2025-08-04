@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+</head>
+
+<body>
+
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Головна сторінка</a></li>
+        <li><a href="articles.html">Статті</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="page-nav.html">Навігація</a></li>
+        <li><a href="registration.html">Реєстрація</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Контакти</h1>
+
+      <hr>
+
+      <h2>Адреса</h2>
+      <address>
+        <p>Ankara 73, <br>
+          Limassol 3042,<br>
+          Кипр</p>
+      </address>
+    </section>
+
+    <hr>
+
+    <h2>Ми на карті</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6562.589139641454!2d33.037619676274794!3d34.6725142729297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e7330206010479%3A0xbe3e5b52accd7d27!2zQW5rYXJhIDczLCBMZW1lc29zIDMwNDIsINCa0LjQv9GA!5e0!3m2!1sru!2sat!4v1753125367938!5m2!1sru!2sat"
+      width="400" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <hr>
+
+    <section>
+      <h2>Контакти</h2>
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+        <fieldset>
+          <legend><b>Зворотній зв'язок</b></legend>
+
+          <div>
+            <label for="name">Ім'я</label>
+            <input id="name" type="text" placeholder="Name" name="name">
+          </div>
+          <div>
+            <label for="fam">Прізвище</label>
+            <input id="fam" type="text" placeholder="Familien Name" name="fam">
+          </div>
+          <div>
+            <label for="email">Emeil</label>
+            <input id="email" type="email" placeholder="Email" name="email">
+          </div>
+          <div>
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" name="phone" pattern="43-[0-9]{5}-[0-9]{4}">
+          </div>
+          <div>
+            <label for="message">Ваше питання</label>
+            <textarea id="message" name="message" placeholder="Featback"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <button type="submit"><b>Відправити</b></button>
+            <button type="reset">Стерти</button>
+          </div>
+        </fieldset>
+
+      </form>
+
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <div>&copy; Anton Pashchenko</div>
+  </footer>
+
+</body>
+
+</html>

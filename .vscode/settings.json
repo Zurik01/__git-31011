@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "files.autoSave": "onWindowChange",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnType": true,
+  "htmlhint.enable": true
+}
